@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style type="text/css">
+    	
+    </style>
+    
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    
+
+    <title>A. Nunes</title>
+  </head>
+  <body>
+  <hr width="1000" height="140" >
+						<div class="bolinha"></div>
+    <div class="container container-fluid">
+  		<div class="row topo">
+  			<div class="col-lg-4" >
+  				<img id="teste" src="img/fotoPerfil.jpg" class="fotoPerfil ">
+  			</div>
+  			<div class="col-lg-8">
+  				<h1>Alex Nunes</h1>
+  				<p>Um cidadão fez voto de desapego e pobreza. Dispôs de todos os seus bens e propriedades, 
+  				reservou para si apenas duas tangas, e saiu pelo mundo afora em busca de todos os sábios, medindo na verdade o desapego de
+  				 cada um. Levava apenas uma tanga no corpo.Estava convencido de não encontrar quem ganhasse de si em despojamento,
+  				  quando soube de um velho guru. To
+  				 </p>
+  				
+  			</div>
+  		</div>
+  		<div class="row espaco">
+  			
+  		</div>
+  		<div class="row">
+  			<div class="col-lg-4 ">
+  				<h2 class="contato">Contato</h2>
+  				<div class="centralizar">
+  					<p class="subTituloContato">Endereço</p>
+  					<p>Visconde de Itaborai</p>
+  					<p>São Paulo</p>
+  					<p class="subTituloContato">Data de aniversario</p>
+  					<p>06 de julho de 1993</p>
+  					<p class="subTituloContato">Telefone</p>
+  					<p>(11)957164330</p>
+  					<p class="subTituloContato">E-mail</p>
+  					<p>AFNunes.93@gmail.com</p>
+  					<p class="subTituloContato">Site</p>
+  					<p>AFNunes.com</p>
+  				</div>
+  				<h2 class="SobreMim">Sobre Mim</h2>
+  				<p>Um cidadão fez voto de desapego e pobreza. Dispôs de todos os seus bens e propriedades, 
+  				reservou para si apenas duas tangas, e saiu pelo mundo afora em busca de todos os sábios, medindo na verdade o desapego de
+  				 cada um. Levava apenas uma tanga no corpo.Estava convencido de não encontrar quem ganhasse de si em despojamento,
+  				  quando soube de um velho guru. To
+  				 </p>
+  				 <h2 class="Hobbies">Hobbies</h2>
+
+  			</div>
+  
+  			<div class="col-lg-1">
+  			
+  			</div>
+  			<div class="col-lg-7" >
+  				
+				<h2 class="experiencia">Experiencia</h2>
+				<p>2013-2014		Track & Field</p>
+				<p>2014-2018		Hexa Solution</p>
+				<h2 class="Habilidades">Habilidades</h2>
+				<div class="row">					
+					<div class="col-3 altura" id="Csharp" ></div>
+					<div class="col-3" id="HTML"></div>
+					<div class="col-3" id="JavaScript"></div>
+					<div class="col-3" id="SQL" ></div>
+					<div class="col-3 "><p>C#</p></div>
+					<div class="col-3 "><p>HTML</p></div>
+					<div class="col-3 "><p>JavaScript</p></div>
+					<div class="col-3 "><p>SQL</p></div>
+				</div>
+				<h2 class="Linguagens">Linguagens</h2>
+				<h2 class="Educacao">Educação</h2>
+				<div class="row">
+					<div class="col-12">
+						<hr width="100" >
+						<div class="bolinha"></div>
+					</div>
+					
+				</div>
+
+				
+  			</div>
+  		</div>
+
+	</div> 
+  </body>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+    	
+    PassarFoto()
+    	function PassarFoto(){
+    		x = document.getElementsByTagName("img")
+	    	for (var i = x.length - 1; i >= 0; i--) {
+	    		//alert(x[i].src);
+	    		if(x[i].src == "https://www.imag.com/img/icon_next.gif"){
+	    			x[i].click();
+	    			//alert(i);
+	    			setTimeout(function(){ PassarFoto(); }, 5000)
+	    		}
+	    	}
+    	}
+    	
+    	function calculoCarro(){
+    		for(i=0;i<x.length-1;x++){x[i].src}
+    		valorInicial = 95000
+    		mensalidade = 1982.08
+    		taxa = 0.006
+    		for (var i = 1; i <= 36; i++) {
+    			valorInicial = valorInicial * (1+taxa)
+    			valorInicial = valorInicial - mensalidade
+    			//alert(valorInicial)
+    		}
+    		alert(valorInicial)
+    		taxa = 0.006
+    		valorInicial = 511
+    		valorTotal = 0
+    		for (var i = 1; i <= 36; i++) {
+    			valorTotal = (valorTotal+valorInicial) * (1+taxa)
+    		}
+    		alert(valorTotal)
+    	}
+    	
+    </script>
+    <script>
+		window.onload = iniciarGraficos();
+		function iniciarGraficos(){
+			fazerGrafico("Csharp", "#F69B1E", 80);
+			fazerGrafico("HTML", "#82C13F", 50)
+			fazerGrafico("JavaScript", "#F15659", 70)
+			fazerGrafico("SQL", "#2D3A40", 70)
+		}
+		function fazerGrafico(nomeGrafico, cor, porcentagem) {
+
+		var chart = new CanvasJS.Chart(nomeGrafico, {
+			animationEnabled: true,
+			title:{
+				
+				horizontalAlign: "left"
+			},
+			data: [{
+				type: "doughnut",
+				startAngle: 270,
+				//innerRadius: 60,
+				
+				dataPoints: [
+					{ y: porcentagem, color: cor},
+					{ y: 100-porcentagem, color:"#E9E5E6"}
+					
+				]
+			}]
+		});
+		chart.render();
+
+		}
+</script>
+  
+</html>
